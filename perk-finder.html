@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perk Finder | The Broke Student's Cheat Code</title>
+  <meta name="description" content="Filter every student perk in this guide by category: entertainment, shopping, tech, news, or Syracuse-only.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">The Broke Student's Cheat Code</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="bars" aria-hidden="true">☰</span>Menu</button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="get-ready.html">Get Ready</a></li>
+          <li><a href="entertainment.html">Entertainment</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="su-perks.html">SU Perks</a></li>
+          <li><a href="stay-on-top.html">Stay on Top</a></li>
+          <li><a href="perk-finder.html" aria-current="page">Perk Finder</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="container">
+      <h1>Perk Finder</h1>
+      <p class="prose">Find the perk you want and jump straight to its instructions. Pick a category to narrow the list.</p>
+
+      <div class="filters" role="group" aria-label="Filter perks by category">
+        <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-btn" type="button" data-filter="entertainment" aria-pressed="false">Entertainment</button>
+        <button class="filter-btn" type="button" data-filter="shopping" aria-pressed="false">Shopping</button>
+        <button class="filter-btn" type="button" data-filter="tech" aria-pressed="false">Tech</button>
+        <button class="filter-btn" type="button" data-filter="news" aria-pressed="false">News</button>
+        <button class="filter-btn" type="button" data-filter="syracuse" aria-pressed="false">Syracuse Only</button>
+      </div>
+      <p id="results-count" class="results-count" aria-live="polite">Showing all 5 perks.</p>
+
+      <ul class="card-grid">
+        <li class="card" data-tags="entertainment">
+          <h2>Spotify Premium Student</h2>
+          <p>$6.99/month instead of $12.99, with Hulu (With Ads) included.</p>
+          <ul class="tags" aria-label="Categories">
+            <li>Entertainment</li>
+          </ul>
+          <a class="claim" href="entertainment.html#step-2">How to claim Spotify Premium Student →</a>
+        </li>
+        <li class="card" data-tags="shopping entertainment">
+          <h2>Amazon Prime Student</h2>
+          <p>6-month free trial, then $7.49/month or $69/year.</p>
+          <ul class="tags" aria-label="Categories">
+            <li>Shopping</li>
+            <li>Entertainment</li>
+          </ul>
+          <a class="claim" href="entertainment.html#step-3">How to claim Amazon Prime Student →</a>
+        </li>
+        <li class="card" data-tags="tech">
+          <h2>GitHub Student Developer Pack</h2>
+          <p>Free GitHub Pro plus rotating partner tools while you're a student.</p>
+          <ul class="tags" aria-label="Categories">
+            <li>Tech</li>
+          </ul>
+          <a class="claim" href="tools.html#step-4">How to claim the GitHub Student Pack →</a>
+        </li>
+        <li class="card" data-tags="news syracuse">
+          <h2>NYT, WSJ, and Washington Post</h2>
+          <p>Free digital New York Times, Wall Street Journal, and Washington Post through SU Libraries.</p>
+          <ul class="tags" aria-label="Categories">
+            <li>News</li>
+            <li>Syracuse Only</li>
+          </ul>
+          <a class="claim" href="su-perks.html#step-5">How to claim free news access →</a>
+        </li>
+        <li class="card" data-tags="tech syracuse">
+          <h2>Adobe Creative Cloud</h2>
+          <p>Free Creative Cloud on ITS lab computers and through SU Remote Desktop.</p>
+          <ul class="tags" aria-label="Categories">
+            <li>Tech</li>
+            <li>Syracuse Only</li>
+          </ul>
+          <a class="claim" href="su-perks.html#step-6">How to claim Adobe Creative Cloud →</a>
+        </li>
+      </ul>
+
+      <p class="prose">Ready to do them all in order? <a href="get-ready.html#step-1">Start at Step 1</a>.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <nav aria-label="All steps">
+        <h2 class="footer-heading">Jump to a step</h2>
+        <ol class="footer-steps">
+          <li><a href="get-ready.html#step-1">Step 1: Gather what you need</a></li>
+          <li><a href="entertainment.html#step-2">Step 2: Get Spotify Premium Student</a></li>
+          <li><a href="entertainment.html#step-3">Step 3: Start Amazon Prime Student</a></li>
+          <li><a href="tools.html#step-4">Step 4: Claim the GitHub Student Pack</a></li>
+          <li><a href="su-perks.html#step-5">Step 5: Activate free NYT, WSJ, and WaPo (SU)</a></li>
+          <li><a href="su-perks.html#step-6">Step 6: Use Adobe Creative Cloud free (SU)</a></li>
+          <li><a href="stay-on-top.html#step-7">Step 7: Track everything</a></li>
+        </ol>
+      </nav>
+      <p class="footer-note">Information last verified: October 2026</p>
+      <p class="footer-note">This site is a student project for a college course. It is not affiliated with, endorsed by, or sponsored by any company listed.</p>
+    </div>
+  </footer>
+</body>
+</html>
